@@ -17,6 +17,6 @@ jobs:
           script: |
             cd /var/www/jenniferleap.com
             git clone https://github.com/jenleap/portfolio.git
-            cp -r ~/portfolio/. ~/html
+            cp -r /portfolio/. /html/
             rm -r ./portfolio
             echo "Deployment successful!"
